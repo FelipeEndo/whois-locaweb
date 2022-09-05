@@ -71,7 +71,7 @@ stages:
             VERSION=$(git describe --tags --abbrev=0)
             echo $VERSION > lib/version
             sudo gem install geminabox
-            bundle exec geminabox $(GEMFILE) --host https://gems.locaweb.com.br
+            bundle exec gem inabox $(GEMFILE) --host https://gems.locaweb.com.br
         displayName: Publish Gem
 
 

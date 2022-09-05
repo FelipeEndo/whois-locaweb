@@ -35,5 +35,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rake>.freeze, [">= 0"])
     s.add_dependency(%q<rspec>.freeze, [">= 0"])
     s.add_dependency(%q<yard>.freeze, [">= 0"])
+    s.add_development_dependency "geminabox"
   end
 end
