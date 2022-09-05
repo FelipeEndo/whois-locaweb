@@ -56,7 +56,7 @@ stages:
       steps:
       - template: "azure/setup.yml"
       - script: |
-            bundle exec gem build whois-locaweb-4.1.0.gemspec
+            bundle exec gem build whois-locaweb.gemspec
             gemfile=$(ls *.gem)
             echo "##vso[task.setvariable variable=GEMFILE]$gemfile"
         displayName: Generate Gem
