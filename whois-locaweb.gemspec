@@ -2,8 +2,8 @@
 # stub: whois 4.0.4 ruby lib
 
 Gem::Specification.new do |s|
-  s.name = "whois".freeze
-  s.version = "4.0.4"
+  s.name = "whois-locaweb".freeze
+  s.version = "4.0.4.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
